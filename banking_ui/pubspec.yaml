@@ -1,0 +1,33 @@
+name: banking_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.0-76.0.dev
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  animate_do: ^4.2.0
+  flutter_animate: ^4.5.2
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.1.0
+  carousel_slider: ^5.0.0
+  syncfusion_flutter_charts: ^29.1.40
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+
+    
+  assets:
+    - assets/
